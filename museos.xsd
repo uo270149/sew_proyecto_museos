@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="museos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="museo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="museo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre"/>
+        <xs:element ref="descripcion"/>
+        <xs:element ref="ubicacion"/>
+        <xs:element ref="informacionRelevante"/>
+        <xs:element ref="masInfo"/>
+      </xs:sequence>
+      <xs:attribute name="codigo" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nombre" type="xs:string"/>
+  <xs:element name="descripcion" type="xs:string"/>
+  <xs:element name="ubicacion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="latitud"/>
+        <xs:element ref="longitud"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="latitud" type="xs:decimal"/>
+  <xs:element name="longitud" type="xs:decimal"/>
+  <xs:element name="informacionRelevante">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="obra"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obra">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombreObra"/>
+        <xs:element ref="autorObra"/>
+        <xs:element ref="fotosObra"/>
+        <xs:element ref="enlaceObra"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nombreObra" type="xs:string"/>
+  <xs:element name="autorObra" type="xs:string"/>
+  <xs:element name="fotosObra">
+    <xs:complexType mixed="true">
+      <xs:attribute name="valor" use="required" type="xs:anyURI"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="enlaceObra">
+    <xs:complexType>
+      <xs:attribute name="valor" use="required" type="xs:anyURI"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="masInfo">
+    <xs:complexType mixed="true">
+      <xs:attribute name="valor" use="required" type="xs:anyURI"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

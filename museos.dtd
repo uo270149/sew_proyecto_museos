@@ -1,0 +1,48 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT museos (museo+)>
+<!ATTLIST museos>
+
+<!ELEMENT museo (nombre,descripcion,ubicacion,informacionRelevante,
+                 masInfo)>
+<!ATTLIST museo
+  codigo CDATA #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre>
+
+<!ELEMENT descripcion (#PCDATA)>
+<!ATTLIST descripcion>
+
+<!ELEMENT ubicacion (latitud,longitud)>
+<!ATTLIST ubicacion>
+
+<!ELEMENT informacionRelevante (obra+)>
+<!ATTLIST informacionRelevante>
+
+<!ELEMENT masInfo (#PCDATA)>
+<!ATTLIST masInfo
+  valor CDATA #REQUIRED>
+
+<!ELEMENT latitud (#PCDATA)>
+<!ATTLIST latitud>
+
+<!ELEMENT longitud (#PCDATA)>
+<!ATTLIST longitud>
+
+<!ELEMENT obra (nombreObra,autorObra,fotosObra,enlaceObra)>
+<!ATTLIST obra>
+
+<!ELEMENT nombreObra (#PCDATA)>
+<!ATTLIST nombreObra>
+
+<!ELEMENT autorObra (#PCDATA)>
+<!ATTLIST autorObra>
+
+<!ELEMENT fotosObra (#PCDATA)>
+<!ATTLIST fotosObra
+  valor CDATA #REQUIRED>
+
+<!ELEMENT enlaceObra EMPTY>
+<!ATTLIST enlaceObra
+  valor CDATA #REQUIRED>

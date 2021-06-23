@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<museos>
+    <!-- MUSEO 1 -->
+    <museo codigo="1">
+        <nombre>Museo de Bellas Artes de Asturias</nombre>
+        <descripcion> El Museo de Bellas Artes de Asturias es el museo más importante de la provincia, ocupando tres edificios históricos de la ciudad de Oviedo: el Palacio de Velarde, la Casa de Oviedo-Portal y la ampliación en la Casa de Solís-Carbajal, en las calles de La Rúa y Santa Ana. </descripcion>
+        <ubicacion>
+            <latitud>43.361555408851466</latitud>
+            <longitud>-5.8449951863556935</longitud>
+        </ubicacion>
+        <informacionRelevante>
+            <!-- obra 1 -->
+            <obra>
+                <nombreObra>Mosquetero con espada y amorcillo</nombreObra>
+                <autorObra>Pablo Picasso</autorObra>
+                <fotosObra valor="http://www.museobbaa.com/wp-content/uploads/2015/09/picasso.jpg">Foto Obra Picasso</fotosObra>
+                <enlaceObra valor="http://www.museobbaa.com/obra/mosquetero-con-espada-y-amorcillo/"></enlaceObra>
+            </obra>
+
+            <!-- obra 2 -->
+            <obra>
+                <nombreObra>Metamorfosis de ángeles en mariposa</nombreObra>
+                <autorObra>Salvador Dalí</autorObra>
+                <fotosObra valor="http://www.museobbaa.com/wp-content/uploads/2015/09/dali.jpg">Foto Obra Dalí</fotosObra>
+                <enlaceObra valor="http://www.museobbaa.com/obra/metamorfosis-de-angeles-en-mariposa/"></enlaceObra>
+            </obra>
+        </informacionRelevante>
+        <masInfo valor="http://www.museobbaa.com/">Página Oficial del Museo de BBAA de Asturias</masInfo>
+    </museo>
+
+    <!-- MUSEO 2 -->
+    <museo codigo="2">
+        <nombre>LABoral Centro de Arte y Creación Industrial</nombre>
+        <descripcion> LABoral es una institución multidisciplinar que produce, difunde y favorece el acceso a las nuevas formas culturales de la utilización creativa de las tecnologías de la informaciín y la comunicación (TICs). Su programación, transversal e integrada, está dirigida a todos los públicos y tiene como fin último generar y compartir conocimiento. </descripcion>
+        <ubicacion>
+            <latitud>43.52445086205612</latitud>
+            <longitud>-5.611663086487774</longitud>
+        </ubicacion>
+        <informacionRelevante>
+            <!-- obra 1 -->
+            <obra>
+                <nombreObra>No hay ningún problema</nombreObra>
+                <autorObra>Rodrigo García</autorObra>
+                <fotosObra valor="http://www.laboralcentrodearte.org/es/recursos/obras/no-hay-ningun-problema-2020/leadImage_preview">Foto Obra Rodrigo García</fotosObra>
+                <enlaceObra valor="http://www.laboralcentrodearte.org/es/recursos/obras/no-hay-ningun-problema-2020"></enlaceObra>
+            </obra>
+
+            <!-- obra 2 -->
+            <obra>
+                <nombreObra>The Garden of Emoji Delights</nombreObra>
+                <autorObra>Carla Gannis</autorObra>
+                <fotosObra valor="http://www.laboralcentrodearte.org/es/recursos/obras/the-garden-of-emoji-delights-2014/leadImage_preview">Foto Obra Carla Gannis</fotosObra>
+                <enlaceObra valor="http://www.laboralcentrodearte.org/es/recursos/obras/the-garden-of-emoji-delights-2014"></enlaceObra>
+            </obra>
+        </informacionRelevante>
+        <masInfo valor="http://www.laboralcentrodearte.org/es">Página Oficial de LABoral</masInfo>
+    </museo>
+
+    <!-- MUSEO 3 -->
+    <museo codigo="3">
+        <nombre>Museo Marítimo de Asturias</nombre>
+        <descripcion> El Museo, con sede en la marinera villa de Luanco, está dedicado a la recogida, catalogación, conservación, estudio y exposición del patrimonio marítimo asturiano. </descripcion>
+        <ubicacion>
+            <latitud>43.61368610811986</latitud>
+            <longitud>-5.7930150288143745</longitud>
+        </ubicacion>
+        <informacionRelevante>
+            <!-- obra 1 -->
+            <obra>
+                <nombreObra>Interior de la cabina del "Nuevo Jaimar"</nombreObra>
+                <autorObra>Astillero Suárez</autorObra>
+                <fotosObra valor="http://museomaritimodeasturias.com/wp-content/uploads/2018/11/Nuevo-Jaimar-cabina.jpg">Foto "Nuevo Jaimar"</fotosObra>
+                <enlaceObra valor="http://museomaritimodeasturias.com/coleccion-permanente/maquetas-2-2/"></enlaceObra>
+            </obra>
+
+            <!-- obra 2 -->
+            <obra>
+                <nombreObra>Bergantín "Nuevo Juliana". Óleo sobre tela.</nombreObra>
+                <autorObra>Howard Yorke</autorObra>
+                <fotosObra valor="http://museomaritimodeasturias.com/wp-content/uploads/2019/03/Bergant%C3%ADn-Nuevo-Juliana-1900.jpg">Foto Obra Howard Yorke</fotosObra>
+                <enlaceObra valor="http://museomaritimodeasturias.com/coleccion-permanente/bergantin-nuevo-juliana-oleo-tela/"></enlaceObra>
+            </obra>
+        </informacionRelevante>
+        <masInfo valor="http://museomaritimodeasturias.com/">Página Oficial del Museo Marítimo de Asturias</masInfo>
+    </museo>
+
+    <!-- MUSEO 4 -->
+    <museo codigo="4">
+        <nombre>Centro Niemeyer</nombre>
+        <descripcion> El Centro Niemeyer es una puerta abierta a todas las artes y manifestaciones culturales. La música, el cine, el teatro, la danza, las exposiciones o la palabra son protagonistas de una programación cultural multidisciplinar que pretende llegar a todos los públicos. </descripcion>
+        <ubicacion>
+            <latitud>43.557520779118164</latitud>
+            <longitud>-5.917614188336347</longitud>
+        </ubicacion>
+        <informacionRelevante>
+            <!-- obra 1 -->
+            <obra>
+                <nombreObra>Women</nombreObra>
+                <autorObra>Ramón Vaquero Aldazábal</autorObra>
+                <fotosObra valor="https://www.centroniemeyer.es/wp-content/uploads/2021/02/ramon-vaquero_women-scaled.jpg">Foto Women</fotosObra>
+                <enlaceObra valor="https://www.centroniemeyer.es/centro/coleccion-propia/"></enlaceObra>
+            </obra>
+
+            <!-- obra 2 -->
+            <obra>
+                <nombreObra>Transbase</nombreObra>
+                <autorObra>Juan Genovés</autorObra>
+                <fotosObra valor="https://www.centroniemeyer.es/wp-content/uploads/2020/03/Transbase.png">Foto Transbase</fotosObra>
+                <enlaceObra valor="https://www.centroniemeyer.es/centro/coleccion-propia/"></enlaceObra>
+            </obra>
+        </informacionRelevante>
+        <masInfo valor="https://www.centroniemeyer.es/">Página Oficial del Centro Niemeyer</masInfo>
+    </museo>
+
+    <!-- MUSEO 5 -->
+    <museo codigo="5">
+        <nombre>Museo Evaristo Valle</nombre>
+        <descripcion> El Museo Evaristo Valle, constituído en 1981 como Fundación Cultural, es fruto del cariño y generosidad de María Rodríguez del Valle -sobrina del pintor- quien desde su muerte en 1951 atesoró con admirable celo obras, objetos personales y documentos del artista que hoy integran los fondos del museo, a los que unió una dotación y su residencia con dos edificios en Somió (Gijón): uno de ellos construído expresamente para museo en 1971, el otro es un antiguo palacete de finales de siglo XIX, reformado en 1942 y adaptado posteriormente a los nuevos fines. </descripcion>
+        <ubicacion>
+            <latitud>43.53357757633072</latitud>
+            <longitud>-5.617771947819747</longitud>
+        </ubicacion>
+        <informacionRelevante>
+            <!-- obra 1 -->
+            <obra>
+                <nombreObra>Pelea de gallos</nombreObra>
+                <autorObra>Evaristo Valle</autorObra>
+                <fotosObra valor="https://www.flickr.com/photos/95508441@N07/8789314729/in/album-72157633593459663/">Foto Pelea de Gallos</fotosObra>
+                <enlaceObra valor="https://evaristovalle.com/evaristo-valle/obra/"></enlaceObra>
+            </obra>
+
+            <!-- obra 2 -->
+            <obra>
+                <nombreObra>Humorada de la corrida</nombreObra>
+                <autorObra>Evaristo Valle</autorObra>
+                <fotosObra valor="https://www.flickr.com/photos/95508441@N07/8789283199/in/album-72157633593107105/">Foto Humorada de la corrida</fotosObra>
+                <enlaceObra valor="https://evaristovalle.com/evaristo-valle/obra/"></enlaceObra>
+            </obra>
+        </informacionRelevante>
+        <masInfo valor="https://evaristovalle.com/">Página Oficial de la Fundación Museo Evaristo Valle</masInfo>
+    </museo>
+</museos>
