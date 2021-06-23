@@ -33,7 +33,7 @@ class CargarMuseos {
                     // distancia entre la posicion del usuario y la del museo
                     var distancia = Math.sqrt(Math.pow(latUsuario - latitudMuseo, 2) + Math.pow(longUsuario - longitudMuseo, 2));
                     // umbral ara mostrar los museos
-                    if (distancia < 15000) {
+                    if (distancia < 50000) {
                         var codigoMuseo = $(this).attr("codigo");
                         var nombreMuseo = $('nombre', this).text();
                         var descripcionMuseo = $('descripcion', this).text();
